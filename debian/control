@@ -1,15 +1,18 @@
 Source: multiforcer
-Section: unknown
+Section: utils
 Priority: extra
 Maintainer: Devon Kearns <dookie@kali.org>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.3
-Homepage: <insert the upstream URL, if relevant>
-#Vcs-Git: git://git.debian.org/collab-maint/multiforcer.git
-#Vcs-Browser: http://git.debian.org/?p=collab-maint/multiforcer.git;a=summary
+Homepage: http://sourceforge.net/projects/cryptohaze/
+Vcs-Git: ssh://git@git.kali.org/packages/multiforcer.git
+Vcs-Browser: http://git.kali.org/gitweb/?p=packages/multiforcer.git;a=summary
 
 Package: multiforcer
-Architecture: any
+Architecture: amd64
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: GPU accelerated password cracking tool
+ A CUDA & OpenCL accelerated rainbow table implementation 
+ from the ground up, and a CUDA hash brute forcing tool with 
+ support for many hash types including MD5, SHA1, LM, NTLM, 
+ and lots more.

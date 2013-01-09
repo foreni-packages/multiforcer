@@ -1,0 +1,5 @@
+charsets usr/share/multiforcer/
+test_hashes usr/share/multiforcer/
+lib64/* usr/lib64/
+multiforcer usr/bin/
+showconfig-opencl usr/bin/
