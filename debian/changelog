@@ -1,0 +1,5 @@
+multiforcer (1.31-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Devon Kearns <dookie@kali.org>  Wed, 09 Jan 2013 07:30:06 -0700
